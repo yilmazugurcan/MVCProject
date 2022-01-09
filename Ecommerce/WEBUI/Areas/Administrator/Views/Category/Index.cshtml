@@ -1,0 +1,93 @@
+﻿@model List<Category>
+@{
+    ViewBag.Title = "Category";
+    Layout = "~/Views/Shared/_AdminLTE.cshtml";
+}
+
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">@ViewBag.Title</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                        @Html.ActionLink("New Category", "Create", null, new {@class="btn btn-primary"})
+                    </li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Category Name</th>
+                            <th>Description</th>
+                            <th>Status</th>
+                            <th>#</th>
+
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var category in Model)
+                        {
+                        <tr>
+                            <td>
+                                @Ajax.ActionLink(category.CategoryName,"_GetProducts",new { id=category.ID},new AjaxOptions { 
+                            HttpMethod="Get",
+                            InsertionMode=InsertionMode.Replace,
+                            UpdateTargetId="productList",
+                            LoadingElementId="loading"
+                           })
+                            </td>
+                            <td>
+                                @if (category.Description!=null)
+                                {
+                                    @category.Description
+                                }
+                                else
+                                {
+                                    <span>None</span>
+
+                                }
+                            </td>
+                            @switch (category.Status)
+                            {
+                                case CORE.Enum.Status.Active:
+                                    <td><span>Active</span></td>
+                                    break;
+                                case CORE.Enum.Status.Deleted:
+                                    <td><span>Deleted</span></td>
+                                    break;
+                                case CORE.Enum.Status.Modified:
+                                    <td><span>(Modified)</span></td>
+                                    break;
+                            }
+                            <td>@Html.ActionLink("Update","Edit",null, new { @class = "btn btn-primary" }) </td>
+                            <td>@Html.ActionLink("Delete","Delete",null,new { @class="btn btn-danger"}) </td>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div style="position:absolute; left:60%; display:none;" >
+                <img src="https://media1.giphy.com/media/3oEjI6SIIHBdRxXI40/200w.gif" />
+            </div>
+
+            <div class="col-lg-8" id="productList">
+             
+            </div>
+        </div>
+    </div>
+</section>

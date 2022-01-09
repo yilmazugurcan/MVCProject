@@ -1,0 +1,14 @@
+﻿@model List<DataAccess.Entity.Product>
+@{
+    ViewBag.Title = "GetCategory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GetCategory</h2>
+@foreach (var p in Model)
+{
+   
+    <p>@p.ProductName.</p>
+    <p>@p.UnitPrice.</p>
+   
+}

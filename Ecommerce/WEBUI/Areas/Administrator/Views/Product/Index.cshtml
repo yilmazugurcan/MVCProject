@@ -1,0 +1,90 @@
+﻿@model List<Product>
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_AdminLTE.cshtml";
+}
+
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">@ViewBag.Title</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                        @Html.ActionLink("New Product", "Create", null, new { @class = "btn btn-primary" })
+                    </li>
+                </ol>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Product Name</th>
+                            <th>Unit Price</th>
+                            <th>Stock</th>
+                            <th>Category</th>
+                            <th>SubCategory</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model)
+                        {
+
+
+<tr>
+                            <td style="width:25%;">
+                               @if (product.ImagePath == null) {
+                               <img src="~/Content/dist/img/placeholder-image.png" style="width:25%; height:auto;" />
+                               }
+                               else
+                               {
+                                   <img style="width:25%; height:auto;" src="~/Content/dist/product/@product.ImagePath"  />
+                               }
+                            </td>
+                            <td>
+                                <a href="#">@product.ProductName</a>
+                            </td>
+                            <td>
+                                @product.UnitPrice.ToString("C2")
+                            </td>
+                            <td>@product.UnitsInStock</td>
+                            <td></td>
+                            <td></td>
+                            @switch (product.Status)
+                            {
+                                case CORE.Enum.Status.Active:
+                                    <td><span>Active</span></td>
+                                    break;
+                                case CORE.Enum.Status.Deleted:
+                                    <td><span>Deleted</span></td>
+                                    break;
+                                case CORE.Enum.Status.Modified:
+                                    <td><span>(Modified)</span></td>
+                                    break;
+                            }
+                            <td>@Html.ActionLink("Update","Edit",new {id=product.ID }, new {@class="btn btn-primary" }) </td>
+                            <td>@Html.ActionLink("Delete","Delete",new {id=product.ID }, new {@class="btn btn-danger" }) </td>
+
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</section>

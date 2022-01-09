@@ -1,0 +1,14 @@
+﻿@model List<DataAccess.Entity.Category>
+@{
+    ViewBag.Title = "GetCategories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@foreach (var category in Model)
+{
+    <br />
+    @Html.ActionLink(category.CategoryName ,"GetCategory", "Category", new { name = category.CategoryName }, null)
+    
+}
+

@@ -1,0 +1,40 @@
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\SERVICE.dll.config
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\SERVICE.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\SERVICE.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\CORE.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\DataAccess.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\EntityFramework.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\EntityFramework.SqlServer.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\CORE.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\CORE.dll.config
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\DataAccess.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\DataAccess.dll.config
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\EntityFramework.xml
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\EntityFramework.SqlServer.xml
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\obj\Debug\SERVICE.csproj.AssemblyReference.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\obj\Debug\SERVICE.csproj.CoreCompileInputs.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\obj\Debug\SERVICE.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\obj\Debug\SERVICE.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\COMMON.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\bin\Debug\COMMON.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\SERVICE\obj\Debug\SERVICE.csproj.CopyComplete
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\SERVICE.dll.config
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\SERVICE.dll
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\SERVICE.pdb
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\CORE.dll
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\DataAccess.dll
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\EntityFramework.dll
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\COMMON.dll
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\CORE.pdb
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\CORE.dll.config
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\DataAccess.pdb
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\DataAccess.dll.config
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\EntityFramework.xml
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\bin\Debug\COMMON.pdb
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\obj\Debug\SERVICE.csproj.AssemblyReference.cache
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\obj\Debug\SERVICE.csproj.CoreCompileInputs.cache
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\obj\Debug\SERVICE.csproj.CopyComplete
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\obj\Debug\SERVICE.dll
+C:\Users\ugurc\Desktop\9-Project-main\03.01\Ecommerce\SERVICE\obj\Debug\SERVICE.pdb

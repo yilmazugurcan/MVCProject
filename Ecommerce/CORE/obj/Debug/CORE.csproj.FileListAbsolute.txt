@@ -1,0 +1,14 @@
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\bin\Debug\CORE.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\bin\Debug\CORE.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\obj\Debug\CORE.csproj.AssemblyReference.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\obj\Debug\CORE.csproj.CoreCompileInputs.cache
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\obj\Debug\CORE.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\obj\Debug\CORE.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\bin\Debug\CORE.dll.config
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\bin\Debug\EntityFramework.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\bin\Debug\EntityFramework.SqlServer.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\bin\Debug\EntityFramework.xml
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\bin\Debug\EntityFramework.SqlServer.xml
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\bin\Debug\COMMON.dll
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\bin\Debug\COMMON.pdb
+D:\Yazılım\Github\Bilge Adam Akademi\YZL3153\9-Project\03.01\Ecommerce\CORE\obj\Debug\CORE.csproj.CopyComplete
